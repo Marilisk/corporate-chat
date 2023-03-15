@@ -1,0 +1,18 @@
+.wrap {
+    display: flex;
+    height: fit-content;
+    max-width: 1440px;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+}
+
+.empty {
+    display: none;
+    @media screen and (max-width: 700px) {
+        display: block;
+        text-align: center;
+        height: 100vh;
+        margin-top: 48vh;
+    }
+}

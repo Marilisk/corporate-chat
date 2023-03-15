@@ -1,0 +1,57 @@
+
+.wrap {
+    width: auto;
+}
+
+.myMsg,
+.anotherMsg {
+    width: 50%;
+    display: flex;
+    margin: 24px auto 24px 24px ;
+    
+    .textContainer {
+        background: #F3F3F3;
+        border-radius: 4px;
+        padding: 8px 12px;
+        &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+        }
+    }
+}
+
+.avaWrapper {
+    margin-right: 8px;
+    margin-top: 12px;
+    height: fit-content;
+    img {
+        display: inline-block;
+        border-radius: 4px;
+        &:hover {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+}
+
+
+
+.anotherMsg {
+    margin: 24px 24px 24px auto;
+    .textContainer {
+        background: rgba(64, 126, 201, 0.16);
+    }
+}
+
+.name {
+    font-weight: 700;
+    padding: 8px 4px;
+    &:hover {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+
+
+
+
+
+
